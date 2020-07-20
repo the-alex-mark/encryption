@@ -50,9 +50,9 @@
             this.label1.Font = new System.Drawing.Font("Century Gothic", 8F);
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(98, 16);
+            this.label1.Size = new System.Drawing.Size(113, 16);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Исходный текст:";
+            this.label1.Text = "Исходные данные:";
             // 
             // label2
             // 
@@ -148,9 +148,9 @@
             this.label4.Font = new System.Drawing.Font("Century Gothic", 8F);
             this.label4.Location = new System.Drawing.Point(12, 240);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(141, 16);
+            this.label4.Size = new System.Drawing.Size(63, 16);
             this.label4.TabIndex = 7;
-            this.label4.Text = "Зашифрованный текст:";
+            this.label4.Text = "Результат:";
             // 
             // elem_cipherText
             // 
@@ -192,6 +192,7 @@
             // MainForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(596, 322);
             this.Controls.Add(this.elem_EN);
             this.Controls.Add(this.elem_RU);
@@ -206,8 +207,6 @@
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Century Gothic", 8F);
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(612, 361);
-            this.MinimumSize = new System.Drawing.Size(612, 361);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Шифр \"Цезаря\"";
